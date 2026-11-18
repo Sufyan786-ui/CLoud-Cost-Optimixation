@@ -1,0 +1,37 @@
+# ==============================================================================
+# Uncertainty-Aware Cloud Cost Optimization System
+# Master Dependencies
+# ==============================================================================
+
+# Data and Numerical Analysis
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.12.0
+
+# Forecasting & Machine Learning
+scikit-learn>=1.4.0
+statsmodels>=0.14.0
+lightgbm>=4.3.0
+torch>=2.2.0
+
+# Mathematical Optimization
+pulp>=2.8.0
+
+# Model Explainability
+shap>=0.44.0
+
+# REST API & Data Contracts
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+
+# Ingestion & Web Requests
+requests>=2.31.0
+
+# Plotting & Report Visuals
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Configuration & Testing
+pyyaml>=6.0.1
+pytest>=8.0.0

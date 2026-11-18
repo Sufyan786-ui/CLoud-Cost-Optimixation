@@ -1,0 +1,20 @@
+# Uncertainty-Aware Cloud Cost Optimization System Configuration
+project:
+  name: "Uncertainty-Aware Cloud Cost Optimization System"
+  version: "0.1.0"
+
+data:
+  sample_rate_minutes: 60
+  lookback_days: 30
+  forecast_horizon_days: 7
+
+pricing:
+  default_provider: "aws"
+  default_region: "us-east-1"
+  default_instance_family: "m5.large"
+
+models:
+  quantiles: [0.1, 0.5, 0.9]
+  lgbm_learning_rate: 0.05
+  lstm_hidden_dim: 64
+  lstm_num_layers: 2
